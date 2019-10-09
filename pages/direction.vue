@@ -54,7 +54,7 @@ export default {
   mounted: function() {
     this.$axios
       .$get(
-        'http://marcelle-mobi-api.herokuapp.com/vehicules/rtm?grant_token=code4marseillefrioul#'
+        'https://marcelle-mobi-api.herokuapp.com/vehicules/rtm?grant_token=code4marseillefrioul#'
       )
       .then(response => {
         this.tab = response
